@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+#logo{
+    width: 150px;
+    height: 150px;
+}
+
+#lista1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    margin:0 1rem;
+}
+
+
+.caja2{
+    display: flex;
+    flex-direction: row;
+}
+
+.caja2>.items{
+    font-size: 1.1rem;
+    padding: 0 .5rem;
+}
